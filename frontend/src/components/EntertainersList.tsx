@@ -41,7 +41,7 @@ const EntertainersList = ({ refreshTrigger }: EntertainersListProps) => {
             <div className="card-body">
               <h5 className="card-title">{ent.entStageName}</h5>
               <p>
-                <strong>Bookings:</strong> {ent.bookingCount}
+                <strong>Past Number of Bookings:</strong> {ent.bookingCount}
               </p>
               <p>
                 <strong>Last Booking Date:</strong>{' '}
