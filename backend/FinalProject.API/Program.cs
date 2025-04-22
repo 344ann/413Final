@@ -17,7 +17,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowReactApp",
         policy =>
         {
-            policy.WithOrigins("http://localhost:5173") // Allow only this origin
+            policy.WithOrigins("http://localhost:5173", "https://finalproject-anna-backend-g4dye9a8gnh7evhk.eastus-01.azurewebsites.net") // Allow only this origin
                 .AllowAnyMethod() // Allow all HTTP methods (GET, POST, PUT, DELETE, etc.)
                 .AllowAnyHeader(); // Allow all headers
         }));

@@ -1,7 +1,8 @@
 import { Entertainer } from '../types/Entertainer';
 import { EntertainerSummary } from '../types/EntertainerSummary';
 
-const API_URL = 'http://localhost:5028/Entertainers';
+const API_URL =
+  'https://finalproject-anna-backend-g4dye9a8gnh7evhk.eastus-01.azurewebsites.net/Entertainers';
 
 // Fetch a list of entertainers with booking count and last date
 export const fetchEntertainerSummaries = async (): Promise<
